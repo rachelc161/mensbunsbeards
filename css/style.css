@@ -1,0 +1,465 @@
+/*
+* NRC imedia - Stylesheet
+
+Student Name: Mark kelso;
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Body
+- Headings
+- Links
+*/
+
+
+/* Body
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+body{
+    background: white;
+}
+
+.header-block{
+    background:#333333;
+    padding:10px;
+}
+
+.header{
+    width:100%;
+    height:400px;
+}
+
+#overlay-text{
+    padding-top: 300px;
+    position:absolute;
+}
+
+.navigation-left{
+    list-style-type: none;
+}
+
+.navigation-left li{
+    float:left;
+    margin-right: 55px;
+}
+
+.navigation-left li a{
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;  
+}
+
+.navigation-left li:last-child{
+    margin-right: 0px;   
+}
+
+.navigation-right{
+    list-style-type: none;
+}
+
+.navigation-right li{
+    float:right;
+    margin-right: 55px;
+}
+
+.navigation-right li a{
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.navigation-right li:first-child{
+    margin-right: 0px;   
+}
+
+#green-block{
+    opacity:0.8;
+    margin-top:-10px;
+    margin-left: -45px;
+    background:#295b3d;
+    height:200px;
+    width:260px;
+    position:absolute;
+}
+
+#banner h2{
+    font-size:43px;
+    display:inline-block;
+    color:#295b3d;
+    margin:0;
+    padding:7px 20px;
+    font-weight: 700;
+}
+
+#linksimages{
+    padding-top: 30px;
+}
+
+#links-text{
+    padding-left:10px;
+    padding-top: 140px;
+    position:absolute;
+}
+
+#links-text h2{
+    color:#fff;
+    font-weight: 800;
+    font-family: 'Oswald', sans-serif;
+}
+
+#homescreenimage{
+    padding-top: 60px;
+}
+   
+#sketches{
+    padding-bottom: 20px;
+}
+
+#barbermenudown{
+    padding-top: 30px;
+}
+
+#barbermenu{
+    padding-bottom: 10px;
+}
+
+#barbersimage{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#meetbarbers{
+    padding-left: 15px;
+}
+
+#barberprofile{
+    padding-top: 39px;
+}
+
+#barberprofiletext{
+    padding-top:15px;
+}
+
+#sketches{
+    padding-top: 15px;  
+}
+
+#map{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.contact-title h5{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#contact-form form{
+    text-align: center;
+}
+
+h1{ 
+    font-family: 'Josefin Slab', serif;
+    color: #474d54;
+    font-size: 24px;
+}
+
+li{ 
+    font-family: 'Oswald', sans-serif;
+    color: #474d54;
+    font-size: 24px;
+    padding-bottom: 10px;
+
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: #474d54;
+    font-size: 24px;
+    margin-top: 22px;
+}
+
+h3{
+    color: #474d54;
+    font-size: 24px;
+    margin-top:22px;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+h4{
+    align-content: left;
+    color:#474d54;
+    font-size:24px;
+    margin-top:22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h6{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+img.hover:hover {
+    -webkit-box-shadow: -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         -1px 0px 17px 0px rgba(50, 50, 50, 0.75);
+}
+
+p{
+    font-family: 'Josefin Slab', serif;
+    color: black;
+    font-size: 24px;
+    align-content: center;
+}
+
+.view p{
+    color:#474d54;
+    align-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ #about-link{
+    margin-top: 22px;
+ }
+
+#about-text{
+    padding-top: 10px;
+}
+
+#about-image{
+    padding-top: 20px;
+}
+
+.about-section h3{
+    color:#474d54;
+    text-align:left;
+
+}
+
+.about-section p{
+    color:black;
+    text-align:left;
+    font-size: 20px
+}
+
+#about-block{
+    background:#ccc;
+}
+
+#contact-block{
+    background:#ccc;
+}
+
+#footer{
+    width: 100%;
+    background-color:#333333;
+}
+
+#footer .text-left{
+    padding-top: 30px;
+    color:#fff;
+    font-size: 14px;
+}
+
+#footer .text-left a{
+    color:#fff;
+    font-weight: bold;
+}
+
+#footer .text-right{
+    display: inline-block;
+    float:right;
+    padding-right: 15px;
+    padding-top: 20px;
+    Padding left: 20px;
+}
+
+.row p{
+    color: #474d54;
+}
+
+/* about
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#a-section {
+    text-align: center;
+    margin-top: 5px;
+}
+
+p{
+    margin-top: 2px;
+}
+
+#a-section h2{
+    font-size: 60px;
+}
+
+#a-section h3{
+    font-size: 24px;
+    
+}
+
+#a-section p1{
+    text-align: left;
+}
+
+#b-section {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#b-section p {
+    text-align:left;
+    padding-top: 80px;
+}
+
+
+.c-section p{
+    text-align: center;
+
+}
+
+/* Mobile first queries */
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    
+iframe{
+        width:100%;
+}
+    
+#logo-block{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height:200px;
+        margin-left: 52px;
+}
+    
+.navigation-left li{
+        margin-left: 0px;
+        margin-right:25px;
+}
+    
+.navigation-right li{
+        float:left;
+        margin-left: 0px;
+        margin-right:15px;
+}
+    
+.navigation-right li:first-child{
+        margin-right:15px;
+}
+
+.navigation-right li:last-child{
+        margin-right:0px;
+}
+    
+.header{
+        height:100%;
+}
+    
+#overlay-text{
+    padding-top: 30px;
+    position:absolute;
+}
+
+
+
+}/*/ End Small /*/
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+
+    .navigation-left li{
+        margin-left: 0px;
+        margin-right: 50px;
+    }
+    
+    .navigation-right li{
+        margin-right: 25px;
+    }
+    
+     iframe{
+        width:100%;
+    }
+    
+    .header{
+        height:100%;
+    }
+    
+    #overlay-text{
+    padding-top: 250px;
+    position:absolute;
+    }
+
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+.navigation-right li{
+    float:right;
+    margin-left: 55px;
+    margin-right: 0px;
+}
+
+.navigation-right li a{
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;  
+}
+
+.navigation-right li:first-child{
+    margin-left: 55px;   
+}
+
+iframe{
+    width:100%;
+}
+    
+#links-text{
+    padding-top: 60px;
+}
+    
+.header{
+    height:100%;
+}
+
+#overlay-text{
+    padding-top: 130px;
+    position:absolute;
+}
+    
+}}/*/ End Medium /*/
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+    #overlay-text{
+    padding-top: 300px;
+    position:absolute;
+}
+    
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) and (max-width: 1300px) {
+    
+     #overlay-text{
+        padding-top: 200px;
+        position:absolute;
+}
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+
